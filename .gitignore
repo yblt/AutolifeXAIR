@@ -1,0 +1,41 @@
+# Local-only workspace (never tracked)
+/internal/
+/openspec/
+/tests/
+/docs/
+/evidence/
+/.codex/
+/.claude/
+/.agents/
+/AGENTS.md
+/CLAUDE.md
+
+# Robot-side runtime state
+*.bak-*
+
+# Python bytecode, caches, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Environments
+.pixi/
+/.venv/
+.env
+.env.*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.obsidian/
+*.swp
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "robot_id": "autolife-robot-274",
+  "camera_id": "mod_camera_rgbd_head",
+  "target_id": "clothes-basket",
+  "workcell_id": "s2-test-point5-baskets",
+  "hsv_lower": [
+    15,
+    120,
+    50
+  ],
+  "hsv_upper": [
+    32,
+    255,
+    255
+  ],
+  "min_area": 8000,
+  "detection_roi_px": [
+    200,
+    60,
+    360,
+    320
+  ],
+  "head_pitch_deg": -35.0,
+  "rim_inset_px": 12,
+  "depth_window": 9,   
+  "min_depth_m": 0.45,
+  "max_depth_m": 1.6,
+  "max_joint_state_age_s": 1.0,
+  "hover_offset_m": [
+    -0.35,
+    0.027,
+    0.46
+  ],
+  "confirm_tolerance_m": 0.05,
+  "retract_position_m": [
+    0.15,
+    -0.2,
+    1.0
+  ],
+  "envelope_x_m": [
+    0.0,
+    0.7
+  ],
+  "envelope_y_m": [
+    -0.45,
+    0.35
+  ],
+  "envelope_z_m": [
+    0.3,
+    1.4
+  ],
+  "y_align_x_m": 0.35,
+  "step_max_m": 0.08,
+  "overall_timeout_s": 180.0,
+  "held_feedback_center": 353,
+  "held_feedback_tolerance": 6,
+  "open_position": 10.0,
+  "gripper_tolerance": 3.0
+}

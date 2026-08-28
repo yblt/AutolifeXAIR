@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge"]
+name = "AutolifeXAIR"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+test = "pytest tests/ -q"
+
+[dependencies]
+python = ">=3.12,<3.13"
+pytest = ">=9.1.1,<10"
